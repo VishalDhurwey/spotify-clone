@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DataLayer initailState={initailState} reduce={reducer}>
+    <DataLayer initailState={initailState} reducer={reducer}>
     <App />
     </DataLayer>
     
