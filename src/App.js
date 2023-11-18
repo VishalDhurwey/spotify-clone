@@ -39,11 +39,18 @@ function App() {
       });
     }
 
-  
+      // spotify.getUserPlaylists().then((playlists)=>{
+      //     dispatch({
+      //       type:"SET_PLAYLISTS",
+      //       playlists:playlists,
+      //     });
+      // })
 
   }, []);
 
   console.log("I am user",user);
+
+  console.log("my token",token);
   
 
   return <div className="App">{token ? <Player /> : <Login />}</div>;

@@ -1,0 +1,9 @@
+.body{
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 10px;
+    flex: 0.8;
+    background: linear-gradient(rgb(228, 138, 202), rgba(0,0,0,1));
+    padding: 30px;
+    
+}
