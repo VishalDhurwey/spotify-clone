@@ -1,0 +1,27 @@
+.header{
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header_left{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+  
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.header_icon{
+    margin-left: 10px;
+}
+.header_icon1{
+    margin-left: 10px;
+}

@@ -8,8 +8,8 @@ import { useDataLayerValue } from './DataLayer';
 
 function Sidebar() {
 
-    // const[{playlist}, dispatch] = useDataLayerValue();
-    // console.log(playlist);
+    const[{playlists}, dispatch] = useDataLayerValue();
+    console.log(playlists);
 
   return (
     <div className='sidebar'>
@@ -25,9 +25,9 @@ function Sidebar() {
         
         <SidebarOption Icon={LibraryMusicIcon} title="Your Library"/>
        
-        {/* {playlist?.items?.map((playlist)=>(
+        {playlists?.items?.map((playlist)=>(
             <SidebarOption title={playlist.name}/>
-        ))} */}
+        ))}
          
 
       </div>
