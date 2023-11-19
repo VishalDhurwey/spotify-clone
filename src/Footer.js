@@ -20,20 +20,28 @@ function Footer() {
         <div className='footer_left'>
            <img 
            className='footer_albumlogo'
-           src='' alt=''/>
+           src='https://i.scdn.co/image/ab67616d0000b2739478c87599550dd73bfa7e02' alt=''/>
            <div className='footer_songinfo'>
-            <h4>Yeah!</h4>
-            <p>Usher</p>
+            <h4>Circles</h4>
+            <p>Post Malone</p>
            </div>
         </div>
 
         <div className='footer_center'>
-            <ShuffleIcon className='footer_green'/>
+          <div className='controls'>
+          <ShuffleIcon className='footer_green'/>
             <SkipPreviousIcon className='footer_icon'/>
             <PlayCircleIcon fontSize='large' className='footer_icon'/>
             <SkipNextIcon className='footer_icon'/>
             <RepeatIcon className='footer_green'/>
+          </div>
+            <div className='slider'>
+              <p>0:00</p>
+                <Slider size="small"/>
+                <p>2:46</p>
+            </div>
         </div>
+      
 
         <div className='footer_right'>
             <Grid container spacing={2}>
@@ -53,7 +61,7 @@ function Footer() {
                 <VolumeDownRounded/>
               </Grid>
               <Grid item xs>
-                <Slider/>
+                <Slider size="small"/>
               </Grid>
               <Grid item>
                 <PictureInPictureIcon/>

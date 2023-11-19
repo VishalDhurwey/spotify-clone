@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     bottom: 0;
-    height: 65px;
+    height: 50px;
     width: 97%;
     background-color: #000000;
     padding: 20px;
@@ -25,6 +25,17 @@
     align-items: center;
     justify-content: space-between;
     max-width: 250px;
+    flex-direction: column;
+}
+.slider{
+    width: 500px;
+    display:flex ;
+    gap: 10px;
+    align-items: center;
+    
+}
+.footer_center * .MuiSlider-root{
+    color:rgb(0, 185, 0); 
 }
 .footer_right{
     flex: 0.3;
@@ -58,4 +69,14 @@
 
 .footer_right * .MuiSlider-root {
     color: rgb(0, 185, 0);
+}
+
+.controls{
+    flex: 0.4;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    gap: 10px;
 }
