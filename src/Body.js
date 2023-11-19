@@ -22,7 +22,7 @@ function Body({spotify}) {
         <strong>Playlist</strong>
         <h2>Discover Weekly</h2>
         <p>{discover_weekly?.description}</p>
-        <p>Made for Vishal Dhurwey 30 songs, about 1 hr 30 min</p>
+        {/* <p>Made for Vishal Dhurwey 30 songs, about 1 hr 30 min</p> */}
         </div>
 
       </div>
